@@ -7,7 +7,8 @@ The Aaroh landing page. It started as a code copy of the Framer project "My Port
 ```bash
 npm install
 npm run dev      # http://localhost:5173
-npm run build    # static output in dist/ (deploy anywhere: Vercel, Netlify, Cloudflare Pages…)
+npm run build    # static output in dist/, served from / (Vercel, Netlify, custom domains)
+BASE_PATH=/aaroh-website/ npm run build   # GitHub Pages build (the workflow sets this)
 ```
 
 ## Structure
