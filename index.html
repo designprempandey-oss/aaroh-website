@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aaroh - Product Design for SaaS &amp; AI Startups</title>
+  <meta name="description" content="High-converting landing pages and product design for SaaS &amp; AI startups - built fast and ready to launch." />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Aaroh - Product Design for SaaS &amp; AI Startups" />
+  <meta property="og:description" content="High-converting landing pages and product design for SaaS &amp; AI startups - built fast and ready to launch." />
+  <meta property="og:image" content="/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Aaroh - Product Design for SaaS &amp; AI Startups" />
+  <meta name="twitter:description" content="High-converting landing pages and product design for SaaS &amp; AI startups - built fast and ready to launch." />
+  <meta name="twitter:image" content="/og-image.png" />
+  <link rel="preload" href="/assets/fonts/inter-display-400.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/assets/fonts/inter-display-600.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/assets/fonts/source-serif-4-italic.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/styles.css" />
+  <!-- Hide appear-animated elements before JS runs (same as Framer's appear script). -->
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<div class="page">
+
+  <!-- ============================== NAVBAR ============================== -->
+  <nav class="nav" aria-label="Main">
+    <div class="nav__wrap">
+      <div class="nav__bar" data-nav>
+        <div class="nav__inner">
+          <div class="nav__brand-row">
+            <a class="logo logo--menu" href="#hero" data-logo aria-label="Aaroh — home">
+                <svg class="logo__mark" viewBox="0 0 1806 497" aria-hidden="true"><path class="logo__a" fill="var(--orange)" d="M 93.029 246.750 C 43.870 377.512, 3.046 485.962, 2.311 487.750 L 0.973 491 126.987 491 L 253 491 253 460.461 C 253 443.664, 252.529 425.551, 251.953 420.211 C 248.136 384.829, 233.031 353.214, 207.934 328.080 C 191.290 311.412, 174.756 301.307, 144.742 289.460 L 129.984 283.635 141.742 277.533 C 169.660 263.046, 190.298 247.824, 213.561 224.561 C 236.994 201.128, 251.515 181.447, 266.161 153.270 L 271.998 142.040 276.133 150.270 C 303.230 204.201, 347.397 248.763, 402.216 277.483 L 413.933 283.621 395.716 290.916 C 385.697 294.928, 373.660 300.392, 368.966 303.057 C 325.842 327.545, 297.368 370.790, 292.105 419.789 C 291.497 425.448, 291 443.786, 291 460.539 L 291 491 416.391 491 L 541.782 491 500.891 382.250 C 478.401 322.438, 437.624 213.988, 410.275 141.250 L 360.551 9 271.480 9 L 182.409 9 93.029 246.750"/><path class="logo__rest" fill="var(--dark-3)" d="M 1495 245.500 L 1495 490.022 1537.250 489.761 L 1579.500 489.500 1580.035 377.500 C 1580.528 274.060, 1580.705 265.053, 1582.343 259.647 C 1586.577 245.673, 1593.829 233.834, 1603.237 225.535 C 1609.327 220.163, 1623.815 212.703, 1632.500 210.467 C 1640.421 208.427, 1659.455 208.363, 1668 210.347 C 1691.750 215.861, 1709.562 232.460, 1717.883 256.833 L 1720.500 264.500 1721 377 L 1721.500 489.500 1763.750 489.761 L 1806 490.022 1806 371.735 C 1806 297.102, 1805.622 250.320, 1804.975 244.974 C 1797.986 187.219, 1760.492 146.042, 1703.778 133.838 C 1689.924 130.856, 1659.973 130.572, 1647 133.298 C 1621.482 138.662, 1601.592 149.082, 1586.955 164.755 L 1580.011 172.191 1579.756 86.845 L 1579.500 1.500 1537.250 1.239 L 1495 0.978 1495 245.500 M 703.996 132.064 C 682.810 134.317, 663.537 140.021, 643.500 149.968 C 621.821 160.731, 603.584 175.411, 590.906 192.303 C 584.716 200.551, 574.719 219.337, 575.210 221.801 C 575.459 223.056, 642.816 256.556, 643.531 255.780 C 643.673 255.626, 644.509 253.766, 645.387 251.646 C 647.972 245.409, 655.666 234.514, 662.095 227.984 C 672.938 216.971, 688.882 208.295, 704.500 204.907 C 713.769 202.897, 733.942 203.378, 743.144 205.828 C 760.969 210.575, 775.224 221.706, 781.986 236.157 C 785.171 242.964, 787.377 255.212, 786.818 262.997 L 786.500 267.435 761 271.642 C 746.975 273.955, 720.200 278.359, 701.500 281.427 C 647.164 290.343, 629.236 295.982, 605.958 311.479 C 584.114 326.021, 570.876 344.250, 564.195 368.989 C 561.913 377.438, 561.620 380.453, 561.569 396 C 561.499 417.112, 563.325 425.948, 570.970 441.500 C 584.264 468.542, 609.420 486.144, 646.312 494.217 C 655.336 496.192, 659.355 496.446, 681.500 496.446 C 703.822 496.446, 707.625 496.201, 717 494.158 C 743.296 488.429, 765.532 477.214, 783.750 460.492 L 791 453.838 791 471.919 L 791 490 831 490 L 871 490 871 368.072 C 871 243.137, 870.876 238.654, 866.992 223.469 C 860.589 198.431, 841.919 172.389, 819.845 157.701 C 792.890 139.766, 760.487 130.757, 724.289 131.133 C 717.255 131.206, 708.123 131.625, 703.996 132.064 M 1262 132.036 C 1240.088 134.694, 1217.106 141.340, 1199.707 150.050 C 1149.337 175.266, 1114.508 219.273, 1103.171 272.023 C 1093.634 316.394, 1100.644 368.985, 1120.732 403.777 C 1150.249 454.901, 1197.888 486.993, 1257 495.572 C 1274.322 498.086, 1307.017 497.116, 1323.662 493.594 C 1376.998 482.309, 1420.793 450.256, 1447.763 402.767 C 1475.431 354.049, 1477.160 284.774, 1451.988 233.500 C 1426.090 180.746, 1377.350 144.228, 1319 133.861 C 1305.876 131.529, 1274.473 130.524, 1262 132.036 M 1062 136.538 C 1029.083 141.742, 1007.395 155.637, 994.092 180.043 L 990.028 187.500 990.014 163.250 L 990 139 949.997 139 L 909.994 139 910.247 314.250 L 910.500 489.500 952.750 489.761 L 995 490.022 995.006 387.761 C 995.012 275.655, 995.086 274.043, 1000.890 258.140 C 1007.154 240.975, 1020.177 226.432, 1036.411 218.469 C 1050.919 211.354, 1054.245 210.744, 1081.250 210.250 L 1105 209.816 1105 172.408 L 1105 135 1087.750 135.097 C 1078.263 135.150, 1066.675 135.799, 1062 136.538 M 1273.982 209.137 C 1235.308 212.069, 1200.761 242.378, 1190.364 282.500 C 1186.832 296.129, 1185.935 320.951, 1188.435 335.900 C 1192.348 359.302, 1201.291 377.381, 1216.455 392.545 C 1236.127 412.217, 1260.860 421.278, 1290.500 419.670 C 1304.335 418.920, 1315.007 416.206, 1326.503 410.514 C 1354.218 396.791, 1373.658 369.424, 1379.382 336.074 C 1381.432 324.129, 1381.467 303.948, 1379.457 292.381 C 1374.160 261.896, 1356.113 235.153, 1331.230 220.912 C 1313.539 210.787, 1297.024 207.391, 1273.982 209.137 M 739.500 340.003 C 714.750 344.285, 691.575 348.551, 688 349.483 C 670.908 353.939, 657.798 363.446, 652.415 375.288 C 650.067 380.455, 649.526 383.182, 649.203 391.500 C 648.871 400.048, 649.142 402.370, 651.070 407.493 C 655.202 418.472, 666.687 427.540, 681 431.123 C 689.610 433.279, 710.556 432.777, 721.301 430.158 C 757.189 421.412, 782.113 392.486, 785.939 355.144 C 787.405 340.835, 787.332 331.971, 785.750 332.108 C 785.063 332.168, 764.250 335.720, 739.500 340.003"/></svg>
+              </a>
+            <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" data-burger>
+              <span class="burger__bar burger__bar--1"></span>
+              <span class="burger__bar burger__bar--2"></span>
+              <span class="burger__bar burger__bar--3"></span>
+            </button>
+          </div>
+          <div class="nav__right">
+            <div class="nav__links">
+              <a class="nav__link" href="#process">Process</a>
+              <a class="nav__link" href="#pricing">Pricing</a>
+              <a class="nav__link" href="#faq">FAQs</a>
+            </div>
+            <div class="nav__ctas">
+              <a class="btn btn--work-small" data-btn="work" data-scale-hover href="https://www.figma.com/proto/9GkokkLLwntq8JGKTiDU5h/Recent-Works?node-id=1-736&amp;p=f&amp;viewport=112%2C444%2C0.04&amp;t=WdXd2qHTRtrXmr8q-1&amp;scaling=contain&amp;content-scaling=fixed&amp;page-id=0%3A1&amp;starting-point-node-id=1%3A736" target="_blank" rel="noopener">
+                <span class="btn__row">
+                  <img class="btn__icon btn__icon--figma" src="/assets/images/TGeObKruzrEmA4vbYBrd13uWDY.png" alt="" />
+                  <span class="btn__label">Recent works</span>
+                </span>
+              </a>
+              <a class="btn btn--call-small" data-btn="call" data-scale-hover href="https://cal.com/prempandey/15min" target="_blank" rel="noopener">
+                <span class="btn__row">
+                  <img class="btn__icon btn__icon--in" src="/assets/images/mYZcuk9fNMef2nfjLklvZOG0J0.png" alt="" />
+                  <img class="btn__icon btn__icon--out" src="/assets/images/mYZcuk9fNMef2nfjLklvZOG0J0.png" alt="" />
+                  <span class="btn__label">Book A Call</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main">
+
+    <!-- ============================== HERO ============================== -->
+    <header class="hero section" id="hero">
+      <div class="hero__content rails">
+        <div class="hero__stack bd">
+          <div class="hero__top">
+            <div class="hero__heading">
+              <div class="hero__text">
+                <div class="hero__titles">
+                  <div class="pill pill--hero" data-appear='{"y":20}' data-appear-phone="none">
+                    <p>Worked with <span class="pill__strong">5+ founders</span> across SaaS &amp; AI</p>
+                  </div>
+                  <div class="hero__h1">
+                    <h1 class="h1" data-appear='{"y":150}'>Product design + landing pages</h1>
+                    <h1 class="h1 h1--serif hide-phone" data-appear='{"y":150,"delay":0.2}'>for SaaS &amp; AI Startups</h1>
+                    <h1 class="h1 h1--serif show-phone" data-words>for SaaS &amp; AI Startups</h1>
+                  </div>
+                </div>
+                <p class="body-l hero__sub" data-appear='{"y":150}'>I turn confusing interfaces into clear, high-trust experiences users actually understand - first version in 24 hours.</p>
+              </div>
+              <div class="hero__ctas" data-appear='{"y":20}'>
+                <div class="lift" data-lift="-5">
+                  <a class="btn btn--call-big" data-btn="call" href="https://cal.com/prempandey/15min" target="_blank" rel="noopener">
+                    <span class="btn__row">
+                      <img class="btn__icon btn__icon--in" src="/assets/images/mYZcuk9fNMef2nfjLklvZOG0J0.png" alt="" />
+                      <img class="btn__icon btn__icon--out" src="/assets/images/mYZcuk9fNMef2nfjLklvZOG0J0.png" alt="" />
+                      <span class="btn__label">Book A Call</span>
+                    </span>
+                  </a>
+                </div>
+                <div class="lift" data-lift="-5">
+                  <a class="btn btn--work-big" data-btn="work" href="https://www.figma.com/proto/9GkokkLLwntq8JGKTiDU5h/Recent-Works?node-id=1-736&amp;p=f&amp;viewport=112%2C444%2C0.04&amp;t=WdXd2qHTRtrXmr8q-1&amp;scaling=contain&amp;content-scaling=fixed&amp;page-id=0%3A1&amp;starting-point-node-id=1%3A736" target="_blank" rel="noopener">
+                    <span class="btn__row">
+                      <img class="btn__icon btn__icon--figma" src="/assets/images/TGeObKruzrEmA4vbYBrd13uWDY.png" alt="" />
+                      <span class="btn__label">Recent works</span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero__tickers">
+              <div class="ticker ticker--shots" data-ticker data-velocity="150" data-hover="70" data-gap="12" data-draggable>
+                <ul class="ticker__track">
+                  <li><img class="shot" src="/assets/images/LatPMInXm1SQpikAibUn7HcVaY.png" alt="" draggable="false" /></li>
+                  <li><img class="shot" src="/assets/images/YtJgRW4zELPcdh96WLaPYJYN0.png" alt="" draggable="false" /></li>
+                  <li><img class="shot" src="/assets/images/fPmsbDRN5B6UfxbfLky13dN2nk.png" alt="" draggable="false" /></li>
+                  <li><img class="shot" src="/assets/images/y0NhOb6hoyo9AQunP7hxBisQiXM.png" alt="" draggable="false" /></li>
+                  <li><img class="shot" src="/assets/images/MjE4biVBPmlmRBSGrHvK6GYaHk.png" alt="" draggable="false" /></li>
+                  <li><img class="shot" src="/assets/images/7y5kg0jeN0IH5PUKnckwD4dVI.png" alt="" draggable="false" /></li>
+                  <li><img class="shot" src="/assets/images/FJ191q3fzmT72WT9oYiwkAeUs.png" alt="" draggable="false" /></li>
+                  <li><img class="shot" src="/assets/images/4n1JChQsCLtfTUHwFugKDQTQML0.png" alt="" draggable="false" /></li>
+                  <li><img class="shot" src="/assets/images/XHGkAD4lhgctNRUytJGSLNn0Qt4.png" alt="" draggable="false" /></li>
+                  <li><img class="shot" src="/assets/images/OzbEcpReafl4uz6i1HipnGK3UVo.png" alt="" draggable="false" /></li>
+                </ul>
+              </div>
+              <div class="ticker ticker--shots hide-phone" data-ticker data-velocity="150" data-hover="70" data-gap="12" data-direction="reverse" data-draggable>
+                <ul class="ticker__track">
+                  <li><img class="shot" src="/assets/images/I4Csuhk7jL5sf6k4APjUVDG3R0.png" alt="" draggable="false" /></li>
+                  <li><img class="shot" src="/assets/images/KLw8Kq6TZ2RxP4V1QxNF6vyrXU.png" alt="" draggable="false" /></li>
+                  <li><img class="shot" src="/assets/images/xXV9NaXNZcYvpkmFxBTmiCgfYik.png" alt="" draggable="false" /></li>
+                  <li><img class="shot" src="/assets/images/qeAheP7jau86UHwSr0aWJKdEpXI.png" alt="" draggable="false" /></li>
+                  <li><img class="shot" src="/assets/images/9hLsfSwVPy8OZGHGmyyD7D1q8.png" alt="" draggable="false" /></li>
+                  <li><img class="shot" src="/assets/images/gPQLViJFxXvnCm4OW01SR2ynkA.png" alt="" draggable="false" /></li>
+                  <li><img class="shot" src="/assets/images/qeAheP7jau86UHwSr0aWJKdEpXI.png" alt="" draggable="false" /></li>
+                  <li><img class="shot" src="/assets/images/kYNk6TsL5rXUtoL8ciBLiXjFrTg.png" alt="" draggable="false" /></li>
+                  <li><img class="shot" src="/assets/images/1Zq7kg0C77m3YvW5qBcqIqqMEI.png" alt="" draggable="false" /></li>
+                  <li><img class="shot" src="/assets/images/OzbEcpReafl4uz6i1HipnGK3UVo.png" alt="" draggable="false" /></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="worked bd">
+            <div class="ticker ticker--logos" data-ticker data-velocity="50" data-hover="50" data-gap="52">
+              <ul class="ticker__track">
+                <li><img class="clogo" src="/assets/svg/logo-apptics.svg" alt="Apptics" /></li>
+                <li><img class="clogo" src="/assets/svg/logo-devlop.svg" alt="Devlop AI" /></li>
+                <li><img class="clogo clogo--tall" src="/assets/svg/logo-linkforcoders.svg" alt="Link for coders" /></li>
+                <li><img class="clogo" src="/assets/svg/logo-mplus.svg" alt="Mplus" /></li>
+                <li><img class="clogo" src="/assets/svg/logo-stealth.svg" alt="Stealth" /></li>
+                <li><img class="clogo" src="/assets/svg/logo-pcospal.svg" alt="PCOS Pal" /></li>
+              </ul>
+            </div>
+            <div class="worked__label"><p class="body-l">Worked with</p></div>
+          </div>
+        </div>
+        <span class="dot" style="top:53px;left:-5px"></span>
+        <span class="dot" style="top:53px;right:-5px"></span>
+        <span class="dot" style="bottom:81px;left:-5px"></span>
+        <span class="dot" style="bottom:81px;right:-5px"></span>
+      </div>
+    </header>
+
+    <!-- ============================== PROBLEMS ============================== -->
+    <section class="problems section">
+      <div class="problems__main rails">
+        <div class="problems__stack bd">
+          <div class="problems__head">
+            <h2 class="h2 problems__title">What’s <em>holding</em> your product back</h2>
+            <div class="pill pill--white">
+              <img class="pill__icon" src="/assets/svg/icon-hand.svg" alt="" />
+              <p>Hover to see how I fix it</p>
+            </div>
+          </div>
+
+          <div class="problems__grid">
+            <!-- card template: .pcard > .pcard__problem + .pcard__solution -->
+            <div class="pcard" data-pcard>
+              <div class="pcard__problem"><div class="pcard__content"><div class="pcard__icon"><img src="/assets/svg/problem-1.svg" alt="" /></div><div class="pcard__text"><p class="pcard__title">Hard to understand</p><p class="pcard__body">Users don’t get what your product does at first glance</p></div></div></div>
+              <div class="pcard__solution"><div class="pcard__content"><div class="pcard__icon"><img src="/assets/svg/solution-1.svg" alt="" /></div><div class="pcard__text"><p class="pcard__title">Make it obvious</p><p class="pcard__body">I simplify your product so users get it in seconds</p></div></div></div>
+            </div>
+            <div class="pcard" data-pcard>
+              <div class="pcard__problem"><div class="pcard__content"><div class="pcard__icon"><img src="/assets/svg/problem-2.svg" alt="" /></div><div class="pcard__text"><p class="pcard__title">Feels generic</p><p class="pcard__body">Looks like every other AI tool in the market</p></div></div></div>
+              <div class="pcard__solution"><div class="pcard__content"><div class="pcard__icon"><img src="/assets/svg/solution-2.svg" alt="" /></div><div class="pcard__text"><p class="pcard__title">Stand out clearly</p><p class="pcard__body">Designed with taste so your product feels unique</p></div></div></div>
+            </div>
+            <div class="pcard" data-pcard>
+              <div class="pcard__problem"><div class="pcard__content"><div class="pcard__icon"><img src="/assets/svg/problem-3.svg" alt="" /></div><div class="pcard__text"><p class="pcard__title">Low trust</p><p class="pcard__body">Feels rushed, unfinished, and not reliable to users</p></div></div></div>
+              <div class="pcard__solution"><div class="pcard__content"><div class="pcard__icon"><img src="/assets/svg/solution-3.svg" alt="" /></div><div class="pcard__text"><p class="pcard__title">Build trust fast</p><p class="pcard__body">Clean design that feels structured and highly credible</p></div></div></div>
+            </div>
+            <div class="pcard" data-pcard>
+              <div class="pcard__problem"><div class="pcard__content"><div class="pcard__icon"><img src="/assets/svg/problem-4.svg" alt="" /></div><div class="pcard__text"><p class="pcard__title">Messy UI</p><p class="pcard__body">Layout, spacing, and flow feel inconsistent and confusing</p></div></div></div>
+              <div class="pcard__solution"><div class="pcard__content"><div class="pcard__icon"><img src="/assets/svg/solution-4.svg" alt="" /></div><div class="pcard__text"><p class="pcard__title">Bring structure</p><p class="pcard__body">Fixed with better hierarchy, spacing, and visual clarity</p></div></div></div>
+            </div>
+            <div class="pcard" data-pcard>
+              <div class="pcard__problem"><div class="pcard__content"><div class="pcard__icon"><img src="/assets/svg/problem-5.svg" alt="" /></div><div class="pcard__text"><p class="pcard__title">Slow process</p><p class="pcard__body">Takes weeks of back and forth to ship anything</p></div></div></div>
+              <div class="pcard__solution"><div class="pcard__content"><div class="pcard__icon"><img src="/assets/svg/solution-5.svg" alt="" /></div><div class="pcard__text"><p class="pcard__title">Move faster</p><p class="pcard__body">First version delivered in just 48 hours</p></div></div></div>
+            </div>
+            <div class="pcard" data-pcard>
+              <div class="pcard__problem"><div class="pcard__content"><div class="pcard__icon"><img src="/assets/svg/problem-6.svg" alt="" /></div><div class="pcard__text"><p class="pcard__title">Not build-ready</p><p class="pcard__body">Designs break or change in  development</p></div></div></div>
+              <div class="pcard__solution"><div class="pcard__content"><div class="pcard__icon"><img src="/assets/svg/solution-6.svg" alt="" /></div><div class="pcard__text"><p class="pcard__title">Ready to ship</p><p class="pcard__body">Delivered in Framer or fully ready for development</p></div></div></div>
+            </div>
+            <div class="pcard" data-pcard>
+              <div class="pcard__problem"><div class="pcard__content"><div class="pcard__icon"><img src="/assets/svg/problem-7.svg" alt="" /></div><div class="pcard__text"><p class="pcard__title">Low conversion</p><p class="pcard__body">Users visit but don’t take action or sign up</p></div></div></div>
+              <div class="pcard__solution"><div class="pcard__content"><div class="pcard__icon"><img src="/assets/svg/solution-7.svg" alt="" /></div><div class="pcard__text"><p class="pcard__title">Improve Conversion</p><p class="pcard__body">Designed to guide users clearly and drive better actions</p></div></div></div>
+            </div>
+            <div class="pcard" data-pcard>
+              <div class="pcard__problem"><div class="pcard__content"><div class="pcard__icon"><img src="/assets/svg/problem-8.svg" alt="" /></div><div class="pcard__text"><p class="pcard__title">Feels off</p><p class="pcard__body">Something feels wrong but hard to clearly explain</p></div></div></div>
+              <div class="pcard__solution"><div class="pcard__content"><div class="pcard__icon"><img src="/assets/svg/solution-8.svg" alt="" /></div><div class="pcard__text"><p class="pcard__title">Make it right</p><p class="pcard__body">Clear, intentional design that users trust instantly</p></div></div></div>
+            </div>
+          </div>
+
+          <span class="dot" style="top:-25px;left:-5px"></span>
+          <span class="dot" style="top:-25px;right:-5px"></span>
+          <span class="dot" style="bottom:-4px;left:-5px"></span>
+          <span class="dot" style="bottom:-4px;right:-5px"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== PROCESS ============================== -->
+    <section class="process section" id="process">
+      <div class="process__main">
+        <div class="process__box">
+          <h2 class="h2 h2--white">Simple <em>process</em></h2>
+          <div class="process__cards">
+
+            <!-- Process 1: Book a call -->
+            <div class="proc proc--1">
+              <div class="proc__visual">
+                <div class="proc__screen">
+                  <div class="p1__tiles">
+                    <div class="p1__tile" data-appear='{"scale":0.5,"inView":true}'>
+                      <div class="p1__avatars">
+                        <img class="avatar" src="/assets/images/EQpdyS0vEZ3PQXpk1qWm8e6lhI.png" alt="" />
+                        <img class="avatar" src="/assets/images/NQ8TiNlvjI31QTYJXppJ2uJeN0c.png" alt="" />
+                      </div>
+                      <p class="p1__label">You</p>
+                    </div>
+                    <div class="p1__tile p1__tile--me" data-appear='{"scale":0.5,"delay":0.2,"inView":true}'>
+                      <div class="p1__avatars">
+                        <img class="avatar" src="/assets/images/hkvzOy6vXX1z0odD0fAGH8O0GM.png" alt="" />
+                      </div>
+                      <p class="p1__label">Me</p>
+                    </div>
+                  </div>
+                  <div class="p1__bottom">
+                    <div class="p1__toolbar" data-appear='{"y":150,"delay":0.4,"inView":true}'>
+                      <img src="/assets/svg/p1-toolbar.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="proc__text">
+                <p class="proc__title">Book a call</p>
+                <p class="proc__body">15 minutes to understand your product and direction. No fluff.</p>
+              </div>
+            </div>
+
+            <!-- Process 2: First version (hover scrolls the chat) -->
+            <div class="proc proc--2 proc--border" data-proc2>
+              <div class="proc__visual">
+                <div class="proc__screen">
+                  <div class="p2__clip">
+                    <div class="p2__stage" data-p2-stage>
+                      <div class="p2__left">
+                        <div class="p2__bubble p2__bubble--in" data-appear='{"scale":0.5,"x":-35,"inView":true}'>
+                          <img class="p2__tail p2__tail--l" src="/assets/svg/p2-tail-left.svg" alt="" />
+                          <div class="p2__msg p2__msg--dark"><p>Dashboard feels messy. Users are confused.</p></div>
+                        </div>
+                        <div class="p2__dash p2__dash--a" data-appear='{"scale":0.5,"x":-35,"y":-19,"delay":0.2,"inView":true}'>
+                          <i style="top:4px;left:4px;width:19px;height:4px"></i>
+                          <i style="top:15px;left:4px;width:15px;height:3px"></i>
+                          <i style="top:4px;left:34px;width:27px;height:31px"></i>
+                          <i style="top:7px;left:62px;width:25px;height:31px"></i>
+                          <i style="top:4px;left:90px;width:27px;height:31px"></i>
+                          <i style="top:37px;left:34px;width:27px;height:31px"></i>
+                          <i style="top:44px;left:64px;width:19px;height:21px"></i>
+                          <i style="top:41px;left:91px;width:22px;height:24px"></i>
+                          <i style="top:22px;left:4px;width:15px;height:3px"></i>
+                          <i style="top:30px;left:4px;width:15px;height:3px"></i>
+                          <i style="top:39px;left:7px;width:15px;height:3px"></i>
+                          <i style="top:46px;left:4px;width:15px;height:3px"></i>
+                          <i style="top:58px;left:13px;width:15px;height:3px"></i>
+                        </div>
+                      </div>
+                      <div class="p2__right">
+                        <div class="p2__bubble p2__bubble--m1" data-appear='{"scale":0.5,"x":25,"delay":0.4,"inView":true}'>
+                          <img class="p2__tail p2__tail--r" src="/assets/svg/p2-tail-right.svg" alt="" />
+                          <div class="p2__msg p2__msg--blue"><p>Got it. Starting now.</p></div>
+                        </div>
+                        <div class="p2__bubble p2__bubble--m2" data-appear='{"scale":0.5,"x":25,"delay":0.6,"inView":true}'>
+                          <img class="p2__tail p2__tail--r" src="/assets/svg/p2-tail-right.svg" alt="" />
+                          <div class="p2__msg p2__msg--blue"><p>First Version ready</p></div>
+                        </div>
+                        <div class="p2__dash p2__dash--b" data-appear='{"scale":0.5,"x":25,"y":-17,"delay":0.8,"inView":true}'>
+                          <i style="top:4px;left:4px;width:17px;height:4px"></i>
+                          <i style="top:13px;left:4px;width:13px;height:3px"></i>
+                          <img src="/assets/svg/p2-rect-a.svg" style="top:4px;left:30px;width:22px;height:18px" alt="" />
+                          <img src="/assets/svg/p2-rect-b.svg" style="top:25px;left:30px;width:48px;height:33px" alt="" />
+                          <img src="/assets/svg/p2-rect-a.svg" style="top:4px;left:56px;width:22px;height:18px" alt="" />
+                          <img src="/assets/svg/p2-rect-a.svg" style="top:61px;left:56px;width:22px;height:18px" alt="" />
+                          <img src="/assets/svg/p2-rect-a.svg" style="top:61px;left:30px;width:22px;height:18px" alt="" />
+                          <img src="/assets/svg/p2-rect-a.svg" style="top:4px;left:82px;width:22px;height:18px" alt="" />
+                          <img src="/assets/svg/p2-rect-a.svg" style="top:25px;left:82px;width:22px;height:18px" alt="" />
+                          <img src="/assets/svg/p2-rect-c.svg" style="top:46px;left:82px;width:22px;height:28px" alt="" />
+                          <i style="top:20px;left:4px;width:13px;height:3px"></i>
+                          <i style="top:27px;left:4px;width:13px;height:3px"></i>
+                          <i style="top:34px;left:4px;width:13px;height:3px"></i>
+                          <i style="top:41px;left:4px;width:13px;height:3px"></i>
+                          <i style="top:48px;left:4px;width:13px;height:3px"></i>
+                        </div>
+                      </div>
+                      <div class="p2__chat" data-p2-chat>
+                        <img class="p2__tail p2__tail--chat" src="/assets/svg/p2-tail-left.svg" alt="" />
+                        <div class="p2__msg p2__msg--dark p2__msg--chat"><p>Wow fire 🔥🔥🔥</p></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="proc__text">
+                <p class="proc__title">First version in 24 hours</p>
+                <p class="proc__body proc__body--85">I deliver a complete first version you can review right away.</p>
+              </div>
+            </div>
+
+            <!-- Process 3: Go live (hover = 10-step build sequence) -->
+            <div class="proc proc--3 proc--border" data-proc3>
+              <div class="proc__visual">
+                <div class="proc__screen">
+                  <div class="p3__frame" data-p3-frame>
+                    <div class="p3__bg" data-appear='{"scale":0.5,"inView":true}'></div>
+                    <div class="p3__abs p3__heading" data-p3="heading">
+                      <div class="p3__appear" data-appear='{"x":-150,"rotate":-9,"inView":true}'><p>From messy to live in 7 days</p></div>
+                    </div>
+                    <div class="p3__abs p3__subtitle" data-p3="subtitle">
+                      <div class="p3__appear" data-appear='{"x":-150,"rotate":13,"delay":0.1,"inView":true}'><p>From rough ideas to a fully designed and built landing page. No wireframes. No handoff.</p></div>
+                    </div>
+                    <div class="p3__abs p3__navbar" data-p3="navbar">
+                      <div class="p3__appear" data-appear='{"x":150,"inView":true}'><img data-p3-navsvg src="/assets/svg/p3-navbar.svg" alt="" /></div>
+                    </div>
+                    <div class="p3__abs p3__btn" data-p3="button">
+                      <div class="p3__appear" data-appear='{"x":150,"rotate":-8,"delay":0.1,"inView":true}'>
+                        <div class="p3__btninner">
+                          <img src="/assets/images/LRbRdOwns7d3RvLB89omFez8Y8.png" alt="" />
+                          <p>Book a Call</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="p3__abs p3__me" data-p3="me">
+                      <img class="p3__cursor" src="/assets/svg/p3-cursor.svg" alt="" />
+                      <div class="p3__metag"><p>Me</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="proc__text">
+                <p class="proc__title">Go live in 7 Days</p>
+                <p class="proc__body">Final design is built in Framer and handed over, ready to go live within 7 days.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== TESTIMONIALS ============================== -->
+    <section class="testimonials section">
+      <div class="testimonials__main rails">
+        <div class="testimonials__stack bd">
+          <div class="testimonials__head">
+            <h2 class="h2">What <em>founders</em> say</h2>
+            <span class="dot" style="top:-4px;left:-5px"></span>
+            <span class="dot" style="top:-4px;right:-5px"></span>
+          </div>
+          <div class="ticker ticker--quotes" data-ticker data-velocity="150" data-hover="50" data-gap="10" data-draggable>
+            <ul class="ticker__track">
+              <li>
+                <article class="quote">
+                  <div class="quote__top">
+                    <img class="quote__logo" src="/assets/svg/logo-apptics.svg" alt="Apptics" />
+                    <p class="quote__heading">High-quality, fast, modern designs</p>
+                    <p class="quote__text">Prem did outstanding work for our team, delivering high-quality funnels and websites at an impressive speed. He consistently excelled at turning requirements into clean, modern, and visually compelling designs. His reliability, execution, and design sense made a meaningful impact on our projects and we loved working with him</p>
+                  </div>
+                  <div class="quote__who">
+                    <span class="quote__avatar"><img src="/assets/images/axHoISSUHEY1GLURGxp6pl4tcQ.png" alt="" /></span>
+                    <p class="quote__name">Jai, Founder Apptics</p>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="quote">
+                  <div class="quote__top">
+                    <img class="quote__logo" src="/assets/svg/logo-pcospal.svg" alt="PCOS Pal" />
+                    <p class="quote__heading">Great collaborator, open to feedback</p>
+                    <p class="quote__text">Prem did a great job bringing our vision to life. He was very open to feedback and worked through multiple iterations without rushing the process. He also took the initiative on the copy after researching our product, and handled the Framer development smoothly. Overall, a great collaborator - would definitely work with him again.</p>
+                  </div>
+                  <div class="quote__who">
+                    <span class="quote__avatar"><img src="/assets/images/hwJWhgA1S2iAt8IfV1F2IRU7M6Q.png" alt="" /></span>
+                    <p class="quote__name">Henry, Founder PCOS Pal</p>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="quote">
+                  <div class="quote__top">
+                    <img class="quote__logo" src="/assets/svg/logo-devlop.svg" alt="Devlop AI" />
+                    <p class="quote__heading">Super cool, clean overall vibe</p>
+                    <p class="quote__text">Prem did a really great job. Designs were super cool and clean, loved the overall vibe. He was quick, shared updates regularly, and understood what we needed. Communication was smooth and easy throughout. Overall, working with him was a great experience, would definitely recommend him 👍🏻</p>
+                  </div>
+                  <div class="quote__who">
+                    <span class="quote__avatar"><img src="/assets/images/VZHkKjuO4B8MVem7Z4e6cfPA0.png" alt="" /></span>
+                    <p class="quote__name">Abdul, Founder Devlop AI</p>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== PRICING ============================== -->
+    <section class="pricing" id="pricing">
+      <div class="pricing__main rails">
+        <div class="pricing__stack bd">
+          <h2 class="h2">Simple <em>pricing</em></h2>
+          <div class="pricing__cards">
+            <div class="plan">
+              <div class="plan__content">
+                <div class="plan__text">
+                  <div class="plan__heading">
+                    <div class="plan__price-wrap">
+                      <p class="plan__name">Landing Page Sprint</p>
+                      <div class="plan__price-row">
+                        <p class="h1 plan__price plan__price--orange">$1,499</p>
+                        <p class="plan__old">$2000</p>
+                      </div>
+                    </div>
+                    <p class="plan__note plan__note--sprint">Only <span class="green">2 discounted</span> spots available this month</p>
+                  </div>
+                  <ul class="plan__list">
+                    <li>First version in 24 hours</li>
+                    <li>Unlimited revisions (within scope)</li>
+                    <li>Custom layout - not template-based</li>
+                    <li>Fully responsive (desktop, tablet, mobile)</li>
+                    <li>Full Framer development included</li>
+                    <li>Delivered in 5-7 days</li>
+                    <li>1 week post-launch support</li>
+                    <li>Structured UX in Figma (not just visuals)</li>
+                    <li>Extra pages → $100 each</li>
+                  </ul>
+                </div>
+                <div class="lift lift--full" data-lift="-5">
+                  <a class="btn btn--call-big btn--full" data-btn="call" href="https://cal.com/prempandey/15min" target="_blank" rel="noopener">
+                    <span class="btn__row">
+                      <img class="btn__icon btn__icon--in" src="/assets/images/mYZcuk9fNMef2nfjLklvZOG0J0.png" alt="" />
+                      <img class="btn__icon btn__icon--out" src="/assets/images/mYZcuk9fNMef2nfjLklvZOG0J0.png" alt="" />
+                      <span class="btn__label">Book A Call</span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="plan__shader">
+                <canvas data-shader="wave" data-fallback="/assets/images/wc4ORKxYmQaWENIBTnNXBoy4VU.png"
+                  data-uniforms='{"u_colors":["rgb(255, 255, 255)","rgb(255, 224, 217)","rgb(255, 251, 222)","rgb(255, 209, 189)"],"u_blendAmount":0.54,"u_maskSoftness":0.74,"u_seed":32,"u_waveAmplitude":2.1,"u_waveAngle":105,"u_waveFreqX":0.9,"u_waveFreqY":6,"u_waveSpeed":1.5}'></canvas>
+              </div>
+            </div>
+
+            <div class="plan">
+              <div class="plan__content">
+                <div class="plan__text">
+                  <div class="plan__heading">
+                    <div class="plan__price-wrap plan__price-wrap--full">
+                      <p class="plan__name">Design Partner</p>
+                      <p class="h1 plan__price">$2,999</p>
+                    </div>
+                    <p class="plan__note plan__note--partner"><span class="dark">Ongoing design support</span> - so you never think about design again</p>
+                  </div>
+                  <ul class="plan__list">
+                    <li>One request at a time</li>
+                    <li>Unlimited requests (within scope)</li>
+                    <li>Fast turnaround (24 Hours)</li>
+                    <li>Landing pages/Websites</li>
+                    <li>Product UI (apps, dashboards)</li>
+                    <li>Branding &amp; marketing assets</li>
+                    <li>Framer development</li>
+                    <li>Fully responsive (desktop, tablet, mobile)</li>
+                    <li>Daily updates (Mon–Fri)</li>
+                  </ul>
+                </div>
+                <div class="lift lift--full" data-lift="-5">
+                  <a class="btn btn--call-big btn--full" data-btn="call" href="https://cal.com/prempandey/15min" target="_blank" rel="noopener">
+                    <span class="btn__row">
+                      <img class="btn__icon btn__icon--in" src="/assets/images/mYZcuk9fNMef2nfjLklvZOG0J0.png" alt="" />
+                      <img class="btn__icon btn__icon--out" src="/assets/images/mYZcuk9fNMef2nfjLklvZOG0J0.png" alt="" />
+                      <span class="btn__label">Book A Call</span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="plan__shader">
+                <canvas data-shader="wave" data-fallback="/assets/images/caKGik9Bvh9PbE7eAubxMS7IoQ.png"
+                  data-uniforms='{"u_colors":["rgb(255, 255, 255)","rgb(227, 227, 227)","rgb(199, 199, 199)","rgb(191, 191, 191)"],"u_blendAmount":0.54,"u_maskSoftness":0.74,"u_seed":29,"u_waveAmplitude":2.1,"u_waveAngle":105,"u_waveFreqX":1,"u_waveFreqY":6,"u_waveSpeed":1}'></canvas>
+              </div>
+            </div>
+
+            <a class="badge" href="https://www.framer.com/@prempandey13/" target="_blank" rel="noopener" data-scale-hover="1.1" draggable="false">
+              <img src="/assets/images/ypXz6E7IHNhjXGuEq9GRa14ogsM.png" alt="Official Framer Expert" draggable="false" />
+            </a>
+          </div>
+        </div>
+        <span class="dot" style="top:-5px;left:-5px"></span>
+        <span class="dot" style="top:-5px;right:-5px"></span>
+      </div>
+    </section>
+
+    <!-- ============================== FAQ ============================== -->
+    <section class="faq section" id="faq">
+      <div class="faq__main rails rails--box">
+        <div class="faq__head"><h2 class="h2"><em>Frequently</em> asked questions</h2></div>
+        <div class="faq__list">
+          <div class="faq__item" data-faq><div class="faq__row"><div class="faq__qa"><p class="faq__q">What if I don’t like the first version?</p><div class="faq__a-wrap"><p class="faq__a">We start with your hero section.<br />If it doesn’t clearly improve clarity and structure, we don’t continue.</p></div></div><span class="faq__icon"><img class="faq__bar" src="/assets/svg/faq-bar.svg" alt="" /><img class="faq__bar faq__bar--v" src="/assets/svg/faq-bar.svg" alt="" /></span></div></div>
+          <div class="faq__item" data-faq><div class="faq__row"><div class="faq__qa"><p class="faq__q">How fast is 24 hours?</p><div class="faq__a-wrap"><p class="faq__a">You’ll see a real first version - not wireframes or rough ideas. Something you can actually review and react to.</p></div></div><span class="faq__icon"><img class="faq__bar" src="/assets/svg/faq-bar.svg" alt="" /><img class="faq__bar faq__bar--v" src="/assets/svg/faq-bar.svg" alt="" /></span></div></div>
+          <div class="faq__item" data-faq><div class="faq__row"><div class="faq__qa"><p class="faq__q">Why Framer?</p><div class="faq__a-wrap"><p class="faq__a">It’s fast, flexible, and easy to manage — perfect for modern landing pages.</p></div></div><span class="faq__icon"><img class="faq__bar" src="/assets/svg/faq-bar.svg" alt="" /><img class="faq__bar faq__bar--v" src="/assets/svg/faq-bar.svg" alt="" /></span></div></div>
+          <div class="faq__item" data-faq><div class="faq__row"><div class="faq__qa"><p class="faq__q">How many revisions do I get?</p><div class="faq__a-wrap"><p class="faq__a">Unlimited revisions within scope for 2 weeks, until it feels right.</p></div></div><span class="faq__icon"><img class="faq__bar" src="/assets/svg/faq-bar.svg" alt="" /><img class="faq__bar faq__bar--v" src="/assets/svg/faq-bar.svg" alt="" /></span></div></div>
+          <div class="faq__item" data-faq><div class="faq__row"><div class="faq__qa"><p class="faq__q">How is this different from hiring a designer?</p><div class="faq__a-wrap"><p class="faq__a">You get both design and development, fast turnaround, and no need to manage anyone.</p></div></div><span class="faq__icon"><img class="faq__bar" src="/assets/svg/faq-bar.svg" alt="" /><img class="faq__bar faq__bar--v" src="/assets/svg/faq-bar.svg" alt="" /></span></div></div>
+          <div class="faq__item" data-faq><div class="faq__row"><div class="faq__qa"><p class="faq__q">What kind of work can I request (retainer)?</p><div class="faq__a-wrap"><p class="faq__a">Landing pages, product UI, dashboards, UX improvements, and marketing assets.</p></div></div><span class="faq__icon"><img class="faq__bar" src="/assets/svg/faq-bar.svg" alt="" /><img class="faq__bar faq__bar--v" src="/assets/svg/faq-bar.svg" alt="" /></span></div></div>
+          <div class="faq__item" data-faq><div class="faq__row"><div class="faq__qa"><p class="faq__q">How do we communicate?</p><div class="faq__a-wrap"><p class="faq__a">Async - Slack, Telegram, WhatsApp, or email. Calls only when needed.</p></div></div><span class="faq__icon"><img class="faq__bar" src="/assets/svg/faq-bar.svg" alt="" /><img class="faq__bar faq__bar--v" src="/assets/svg/faq-bar.svg" alt="" /></span></div></div>
+        </div>
+        <span class="dot" style="top:-5px;left:-5px"></span>
+        <span class="dot" style="top:-5px;right:-5px"></span>
+        <span class="dot" style="bottom:-4px;left:-5px"></span>
+        <span class="dot" style="bottom:-4px;right:-5px"></span>
+      </div>
+    </section>
+
+    <!-- ============================== CTA ============================== -->
+    <section class="cta section">
+      <div class="cta__box">
+        <div class="cta__content">
+          <div class="cta__copy">
+            <h2 class="h2 h2--white cta__title">Your product deserves <em>better design</em></h2>
+            <p class="body-l cta__sub"><span>You’ve built the product.</span><br /><span>Now make it clear, structured, and worth trusting.</span></p>
+          </div>
+          <div class="lift" data-lift="-5">
+            <a class="btn btn--orange" data-btn="call" href="https://cal.com/prempandey/15min" target="_blank" rel="noopener">
+              <span class="btn__row">
+                <img class="btn__icon btn__icon--in" src="/assets/images/waVQQ2YxWCUTqCqFstyMPF0M0Is.png" alt="" />
+                <img class="btn__icon btn__icon--out" src="/assets/images/waVQQ2YxWCUTqCqFstyMPF0M0Is.png" alt="" />
+                <span class="btn__label">Book A Call</span>
+              </span>
+              <span class="btn__shader">
+                <canvas data-shader="wave" data-hover-only data-fallback="/assets/images/76MtVPvatDgtT6BK8nSKuYL8RKk.png"
+                  data-uniforms='{"u_colors":["rgb(255, 55, 0)","rgb(255, 86, 0)","rgb(255, 128, 0)","rgb(204, 48, 0)"],"u_blendAmount":0.54,"u_maskSoftness":0.74,"u_seed":32,"u_waveAmplitude":2.1,"u_waveAngle":105,"u_waveFreqX":0.9,"u_waveFreqY":6,"u_waveSpeed":1.5}'></canvas>
+              </span>
+            </a>
+          </div>
+          <div class="cta__chat">
+            <p class="body-l cta__muted">Prefer Chat?</p>
+            <div class="cta__links">
+              <a class="cta__link" data-lift="-3" href="mailto:design.prempandey@gmail.com" target="_blank" rel="noopener">
+                <span class="cta__link-icon"><img class="cta__mail" src="/assets/images/VxMUHjLF5kKTKzcXhjCIr9YZYwI.png" alt="" /></span>
+                <span class="body-l">Email Me</span>
+              </a>
+              <a class="cta__link" data-lift="-3" href="https://t.me/@prempandey13" target="_blank" rel="noopener">
+                <span class="cta__link-icon"><img class="cta__tg" src="/assets/images/AAhSDBKjBlZnRHcGIbPjuuGgmBs.png" alt="" /></span>
+                <span class="body-l">Send a Message</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="cta__shader">
+          <canvas data-shader="liquid" data-fallback="/assets/images/vMm6tKZWqsThYQk9xmpBccVyiw.png"
+            data-uniforms='{"u_colors":["rgb(16, 16, 16)","rgb(21, 21, 21)","rgb(33, 33, 33)","rgb(23, 23, 23)","rgb(38, 38, 38)"],"u_contrast":1.1,"u_distBias":0,"u_dither":0.05,"u_ditherMode":0,"u_exposure":1.1,"u_jellify":0,"u_loop":0,"u_saturation":1,"u_scale":0.42,"u_seed":648,"u_speed":0.3,"u_turbAmp":0.6,"u_turbFreq":0.1,"u_turbIter":7,"u_waveFreq":3.8}'></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== FOOTER ============================== -->
+    <footer class="footer section">
+      <div class="footer__main bd">
+        <div class="footer__stack">
+          <div class="footer__top">
+            <div class="footer__brand">
+              <a class="logo logo--lg" href="#hero" data-logo aria-label="Aaroh — home">
+                <svg class="logo__mark" viewBox="0 0 1806 497" aria-hidden="true"><path class="logo__a" fill="var(--orange)" d="M 93.029 246.750 C 43.870 377.512, 3.046 485.962, 2.311 487.750 L 0.973 491 126.987 491 L 253 491 253 460.461 C 253 443.664, 252.529 425.551, 251.953 420.211 C 248.136 384.829, 233.031 353.214, 207.934 328.080 C 191.290 311.412, 174.756 301.307, 144.742 289.460 L 129.984 283.635 141.742 277.533 C 169.660 263.046, 190.298 247.824, 213.561 224.561 C 236.994 201.128, 251.515 181.447, 266.161 153.270 L 271.998 142.040 276.133 150.270 C 303.230 204.201, 347.397 248.763, 402.216 277.483 L 413.933 283.621 395.716 290.916 C 385.697 294.928, 373.660 300.392, 368.966 303.057 C 325.842 327.545, 297.368 370.790, 292.105 419.789 C 291.497 425.448, 291 443.786, 291 460.539 L 291 491 416.391 491 L 541.782 491 500.891 382.250 C 478.401 322.438, 437.624 213.988, 410.275 141.250 L 360.551 9 271.480 9 L 182.409 9 93.029 246.750"/><path class="logo__rest" fill="var(--dark-3)" d="M 1495 245.500 L 1495 490.022 1537.250 489.761 L 1579.500 489.500 1580.035 377.500 C 1580.528 274.060, 1580.705 265.053, 1582.343 259.647 C 1586.577 245.673, 1593.829 233.834, 1603.237 225.535 C 1609.327 220.163, 1623.815 212.703, 1632.500 210.467 C 1640.421 208.427, 1659.455 208.363, 1668 210.347 C 1691.750 215.861, 1709.562 232.460, 1717.883 256.833 L 1720.500 264.500 1721 377 L 1721.500 489.500 1763.750 489.761 L 1806 490.022 1806 371.735 C 1806 297.102, 1805.622 250.320, 1804.975 244.974 C 1797.986 187.219, 1760.492 146.042, 1703.778 133.838 C 1689.924 130.856, 1659.973 130.572, 1647 133.298 C 1621.482 138.662, 1601.592 149.082, 1586.955 164.755 L 1580.011 172.191 1579.756 86.845 L 1579.500 1.500 1537.250 1.239 L 1495 0.978 1495 245.500 M 703.996 132.064 C 682.810 134.317, 663.537 140.021, 643.500 149.968 C 621.821 160.731, 603.584 175.411, 590.906 192.303 C 584.716 200.551, 574.719 219.337, 575.210 221.801 C 575.459 223.056, 642.816 256.556, 643.531 255.780 C 643.673 255.626, 644.509 253.766, 645.387 251.646 C 647.972 245.409, 655.666 234.514, 662.095 227.984 C 672.938 216.971, 688.882 208.295, 704.500 204.907 C 713.769 202.897, 733.942 203.378, 743.144 205.828 C 760.969 210.575, 775.224 221.706, 781.986 236.157 C 785.171 242.964, 787.377 255.212, 786.818 262.997 L 786.500 267.435 761 271.642 C 746.975 273.955, 720.200 278.359, 701.500 281.427 C 647.164 290.343, 629.236 295.982, 605.958 311.479 C 584.114 326.021, 570.876 344.250, 564.195 368.989 C 561.913 377.438, 561.620 380.453, 561.569 396 C 561.499 417.112, 563.325 425.948, 570.970 441.500 C 584.264 468.542, 609.420 486.144, 646.312 494.217 C 655.336 496.192, 659.355 496.446, 681.500 496.446 C 703.822 496.446, 707.625 496.201, 717 494.158 C 743.296 488.429, 765.532 477.214, 783.750 460.492 L 791 453.838 791 471.919 L 791 490 831 490 L 871 490 871 368.072 C 871 243.137, 870.876 238.654, 866.992 223.469 C 860.589 198.431, 841.919 172.389, 819.845 157.701 C 792.890 139.766, 760.487 130.757, 724.289 131.133 C 717.255 131.206, 708.123 131.625, 703.996 132.064 M 1262 132.036 C 1240.088 134.694, 1217.106 141.340, 1199.707 150.050 C 1149.337 175.266, 1114.508 219.273, 1103.171 272.023 C 1093.634 316.394, 1100.644 368.985, 1120.732 403.777 C 1150.249 454.901, 1197.888 486.993, 1257 495.572 C 1274.322 498.086, 1307.017 497.116, 1323.662 493.594 C 1376.998 482.309, 1420.793 450.256, 1447.763 402.767 C 1475.431 354.049, 1477.160 284.774, 1451.988 233.500 C 1426.090 180.746, 1377.350 144.228, 1319 133.861 C 1305.876 131.529, 1274.473 130.524, 1262 132.036 M 1062 136.538 C 1029.083 141.742, 1007.395 155.637, 994.092 180.043 L 990.028 187.500 990.014 163.250 L 990 139 949.997 139 L 909.994 139 910.247 314.250 L 910.500 489.500 952.750 489.761 L 995 490.022 995.006 387.761 C 995.012 275.655, 995.086 274.043, 1000.890 258.140 C 1007.154 240.975, 1020.177 226.432, 1036.411 218.469 C 1050.919 211.354, 1054.245 210.744, 1081.250 210.250 L 1105 209.816 1105 172.408 L 1105 135 1087.750 135.097 C 1078.263 135.150, 1066.675 135.799, 1062 136.538 M 1273.982 209.137 C 1235.308 212.069, 1200.761 242.378, 1190.364 282.500 C 1186.832 296.129, 1185.935 320.951, 1188.435 335.900 C 1192.348 359.302, 1201.291 377.381, 1216.455 392.545 C 1236.127 412.217, 1260.860 421.278, 1290.500 419.670 C 1304.335 418.920, 1315.007 416.206, 1326.503 410.514 C 1354.218 396.791, 1373.658 369.424, 1379.382 336.074 C 1381.432 324.129, 1381.467 303.948, 1379.457 292.381 C 1374.160 261.896, 1356.113 235.153, 1331.230 220.912 C 1313.539 210.787, 1297.024 207.391, 1273.982 209.137 M 739.500 340.003 C 714.750 344.285, 691.575 348.551, 688 349.483 C 670.908 353.939, 657.798 363.446, 652.415 375.288 C 650.067 380.455, 649.526 383.182, 649.203 391.500 C 648.871 400.048, 649.142 402.370, 651.070 407.493 C 655.202 418.472, 666.687 427.540, 681 431.123 C 689.610 433.279, 710.556 432.777, 721.301 430.158 C 757.189 421.412, 782.113 392.486, 785.939 355.144 C 787.405 340.835, 787.332 331.971, 785.750 332.108 C 785.063 332.168, 764.250 335.720, 739.500 340.003"/></svg>
+              </a>
+              <p class="footer__tag">Product Design + Landing Pages for <em>SaaS &amp; AI startups</em></p>
+            </div>
+            <div class="footer__socials">
+              <a class="social" data-lift="-3" href="https://x.com/prem_uiux" target="_blank" rel="noopener" aria-label="X (Twitter)"><img src="/assets/svg/social-x.svg" alt="" /></a>
+              <a class="social" data-lift="-3" href="https://www.linkedin.com/in/prempandeydesign/" target="_blank" rel="noopener" aria-label="LinkedIn"><img src="/assets/svg/social-linkedin.svg" alt="" /></a>
+              <a class="social" data-lift="-3" href="https://contra.com/prem_pandey_634ui74c?referralExperimentNid=DEFAULT_REFERRAL_PROGRAM&amp;referrerUsername=prem_pandey_634ui74c" target="_blank" rel="noopener" aria-label="Contra"><img src="/assets/svg/social-contra.svg" alt="" /></a>
+              <a class="social" data-lift="-3" href="https://dribbble.com/designerprempandey" target="_blank" rel="noopener" aria-label="Dribbble"><img src="/assets/svg/social-dribbble.svg" alt="" /></a>
+              <a class="social" data-lift="-3" href="https://www.behance.net/designerprempandey" target="_blank" rel="noopener" aria-label="Behance"><img src="/assets/svg/social-behance.svg" alt="" /></a>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <p>made with love ❤️ by Aaroh</p>
+            <p class="footer__copy">© 2026 Aaroh. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+</div>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
